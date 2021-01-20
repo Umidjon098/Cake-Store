@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CakeStore | Shopping-cart</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-bg">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo/logo2.png" alt="">
+                </a>
+            </div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li id="product-category"><a href="shop.html">Shop <i class="fas fa-angle-down fa-xs"></i></a>
+                    <div class="shopping-category d-none d-md-block">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul>
+                                    <span>Cup Cakes</span>
+                                    <li>Mint Tea</li>
+                                    <li>Lemon Tea</li>
+                                    <li>Ginger Tea</li>
+                                    <li>Herbal Tea</li>
+                                    <li>Accessories</li>
+                                    <li>Trousers</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <span>Cakes</span>
+                                    <li>Personal Care</li>
+                                    <li>Baby Care</li>
+                                    <li>Hair Care</li>
+                                    <li>Oral Care</li>
+                                    <li>Accessories</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <span>Birthday Cakes</span>
+                                    <li>Skin Care</li>
+                                    <li>Health Food</li>
+                                    <li>Protein Supplements</li>
+                                    <li>Harbal Tea</li>
+                                    <li>Trousers</li>
+                                    <li>Iron Proteins</li>
+                                    <li>Ayurveda & Herbs</li>
+                                    <li>Accessories</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <span>PanCakes</span>
+                                    <li>Makeup</li>
+                                    <li>Skin Care</li>
+                                    <li>Hair Care</li>
+                                    <li>Tools & Accessories</li>
+                                    <li>Personal Care</li>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="blog.html"> Blog</a></li>
+                <li><a href="contact.html ">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                </ul>
+                <div class="right-nav d-none d-md-block">
+                    <ul>
+                        <li class="user-event">
+                            <i class="far fa-user"></i>
+                            <div class="event-menu card">
+                                <a href="login.html" class="event-item">My Account</a>
+                                <a href="wishlist.html" class="event-item">My Wish List</a>
+                                <a href="register.html" class="event-item">Register</a>
+                                <a href="login.html" class="event-item">Login</a>
+                            </div>
+                        </li>
+                        <li><i class="fas fa-search"></i></li>
+                        <li class="cart-event"><a href="shopping-cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+        </div>
+        <div class="nav-title">
+            <div class="link">
+                <a href="index.html">Home </a>
+                <span> >> </span>
+                <span style="color: #ea8875;"> Shopping Cart</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="shopping-box">
+        <div class="left-shopping-box">
+            <hr>
+            <div class="header-shopping-cart">
+                <div>Item</div>
+                <div class="category-item">
+                    <div>Price</div>
+                    <div>Qty</div>
+                    <div>Subtotal</div>
+                </div>
+            </div>
+            <div class="left-shopping-box-item">
+                <hr>
+                <div class="shopping-cart-main-box">
+                    <div class="left-main-box">
+                        <img src="img/3_1_1.jpg" alt="">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="right-main-box-cart">
+                        <div class="price pr-3">$240.00</div>
+                        <input type="number" class="form-control pr-3" style="width: 70px;">
+                        <div class="price pl-3">$240.00</div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <button class="btn btn-defoult">Edit</button>
+                    <button class="btn btn-defoult">Remove item</button>
+                </div>
+            </div>
+            <div class="left-shopping-box-item">
+                <hr>
+                <div class="shopping-cart-main-box">
+                    <div class="left-main-box">
+                        <img src="img/6_1_1.jpg" alt="">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="right-main-box-cart">
+                        <div class="price pr-3">$240.00</div>
+                        <input type="number" class="form-control pr-3" style="width: 70px;">
+                        <div class="price pl-3">$240.00</div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <button class="btn btn-defoult">Edit</button>
+                    <button class="btn btn-defoult">Remove item</button>
+                </div>
+            </div>
+            <hr>
+            <div class="catr-btn">
+                <a href="shop.html" class="btn btn-secondary">Continue Shopping</a>
+                <a href="shopping-cart.html" class="btn btn-secondary">Update Shopping Cart</a>
+            </div>
+        </div>
+
+
+        <div class="right-shopping-box p-5">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Summary</h3>
+                </div>
+                <div class="card-body">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne1">
+                            <a style="color: #666666;" data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                <h6 class="mb-0">
+                                    Estimate Shipping and Tax
+                                    <i class="fas fa-chevron-down pl-5"></i>
+                                </h6>
+                            </a>
+                        </div>
+                        <div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                            <div class="card-body">
+                                <span>Enter your destination to get a shipping estimate.</span>
+                                <h6 class="text-secondary pt-3">Country</h6>
+                                <select name="" id="" class="form-control">
+                                    <option value="uzbekistan">Uzbekistan</option>
+                                    <option value="kazakistan">Kazakistan</option>
+                                    <option value="kirgizistan">Kirgizistan</option>
+                                    <option value="turkmenistan">Turkmenistan</option>
+                                    <option value="tajikistan">Tajikistan</option>
+                                </select>
+                                <h6 class="text-secondary pt-3">Region</h6>
+                                <select name="" id="" class="form-control">
+                                    <option value="tashkent">Tashkent</option>
+                                    <option value="andijon">Andijon</option>
+                                    <option value="namangan">Namangan</option>
+                                    <option value="fargona">Farg'ona</option>
+                                    <option value="buxoro">Buxoro</option>
+                                    <option value="urganch">Urganch</option>
+                                    <option value="guluston">Guluston</option>
+                                    <option value="namangan">Namangan</option>
+                                    <option value="Jizzax">Jizzax</option>
+                                    <option value="navoiy">Navoiy</option>
+                                    <option value="nukus">Nukus</option>
+                                    <option value="samarqand">Samarqand</option>
+                                    <option value="termiz">Termiz</option>
+                                    <option value="qarshi">Qarshi</option>
+                                </select>
+                                <h6 class="text-secondary pt-3">Zip/Postal Code</h6>
+                                <input type="text" class="form-control">
+                                <label class="pt-2" for="warning">Warning</label>
+                            </div>
+                        </div>
+                        <hr style="margin-top: 0 !important;">
+                        <div class="card-item">
+                            <span>Subtotal</span>
+                            <span>$480</span>
+                        </div>
+                        <hr>
+                        <div class="card-item">
+                            <span>Shipping (Flat Rate - Fixed)</span>
+                            <span>$10</span>
+                        </div>
+                        <hr>
+                        <div class="card-item">
+                            <span>Order Total</span>
+                            <span>$490</span>
+                        </div>
+                        <hr style="margin-bottom: 0 !important;">
+                        <div class="card-header" role="tab" id="headingOne2">
+                            <a style="color: #666666;" data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                <h6 class="mb-0">Apply Discount Code</h6>
+                            </a>
+                        </div>
+                        <div id="collapseOne2" class="collapse" role="tabpanel" aria-labelledby="headingOne2" data-parent="#accordionEx">
+                            <div class="card-body">
+                                <h6 class="text-secondary">Enter discount code</h6>
+                                <input type="text" class="form-control">
+                                <button class="btn btn-secondary mt-2">Apply Discount</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="checkout.html" class="btn btn-secondary mx-4 mb-2">PROCEED TO CHECKOUT</a>
+                <a href="#" class="text-center py-3">Check Out with Multiple Addresses</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="blog-footer">
+        <div class="footer-sidebar">
+            <div class="address-box">
+                <img src="img/logo/logo.png" alt="">
+                <p class="mt-5">Phone: +99899-0-1998-74</p>
+                <p>Address: Fergana, Bagdad</p>
+                <p class="title-p-style ">We Accepts:</p>
+                <img src="img/icon/payment-footer.png" alt="">
+            </div>
+            <div class="links">
+                <p class="title-p-style ">Quick Links</p>
+                <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li> Press Releases</li>
+                    <li> Cakeshop Cares</li>
+                </ul>
+            </div>
+            <div class="categories">
+                <p class="title-p-style "> Popular Categories</p>
+                <ul>
+                    <li>Accessories</li>
+                    <li>Creamy Tart</li>
+                    <li>Macaroons Pie</li>
+                    <li>Cookies</li>
+                    <li>Fruit Cupcake</li>
+                    <li>Heartfelt</li>
+                    <li>Red Velvet</li>
+                    <li>Uncategorized</li>
+                </ul>
+            </div>
+            <div class="account">
+                <p class="title-p-style ">My Account</p>
+                <ul>
+                    <li>Gift Voucher</li>
+                    <li>Your Wishlist</li>
+                    <li>Offer & Discount</li>
+                    <li>Shoping Cart</li>
+                    <li>My Profile</li>
+                    <li>Your Subscription</li>
+                </ul>
+            </div>
+            <div class="subscribtion">
+                <p class="title-p-style ">Subscription Offer</p>
+                <div class="input-box">
+                    <input type="email" placeholder="Your mail address">
+                    <button>Subscribe</button>
+                </div>
+                <p>Sign up to receive updates, promotions, and sneak peaks <br> of upcoming products.</p>
+                <p class="title-p-style ">Follow Us On:</p>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-pinterest  "></i></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>Created By <a href="#">Umidjon098</a> | <span class="fas fa-copyright"></span> 2020 All rights reserved. </span>
+            <div class="icon d-none d-md-block">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-pinterest  "></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="OwlCarousel2-2.2.1/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+    <script>
+        const item = '#slide';
+        const card = "#card"
+
+        function setId(event) {
+            $(event).owlCarousel({
+                loop: true,
+                autoplay: true,
+                padding: 10,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    },
+                    1366: {
+                        items: 4
+                    }
+                }
+            });
+        }
+
+        function setTid(event) {
+            $(event).owlCarousel({
+                loop: true,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    }
+                }
+            });
+        }
+        setId(card);
+        setTid(item);
+    </script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
