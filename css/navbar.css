@@ -9,6 +9,10 @@ ul li a:hover {
     color: crimson !important;
 }
 
+li {
+    list-style-type: none;
+}
+
 ol,
 ul,
 dl {
@@ -21,12 +25,11 @@ dl {
 }
 
 .navbar-bg {
-    padding: 20px 0;
     min-width: 100%;
     position: relative;
     z-index: 99999;
     display: flex;
-    background: #EA8875;
+    background: #A27F6D;
     justify-content: space-around;
     align-items: center;
     font-family: "Poppins", sans-serif;
@@ -45,8 +48,16 @@ dl {
     padding: 0 !important;
 }
 
-.navbar li {
+.navbar li a,
+.right-nav {
     list-style: none;
+    /* display: block; */
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
 }
 
 .navbar a {
@@ -56,8 +67,13 @@ dl {
     transition: all 0.5s ease-in-out;
 }
 
+.navbar-bg .right-nav {
+    width: 120px;
+}
+
 .navbar-bg .right-nav ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
 }
 
@@ -83,7 +99,7 @@ dl {
 }
 
 .nav-bg {
-    background: #EA8875 !important;
+    background: #A27F6D !important;
 }
 
 @media (max-width: 1024px) {
@@ -98,7 +114,7 @@ dl {
     }
     .navbar-bg {
         position: relative;
-        background: #EA8875;
+        background: #A27F6D;
     }
     .navbar {
         position: absolute;
